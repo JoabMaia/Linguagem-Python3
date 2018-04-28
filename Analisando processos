@@ -1,0 +1,5 @@
+minuto = int(input())
+
+resultado = (60/minuto) * 8
+
+print(int(resultado))
