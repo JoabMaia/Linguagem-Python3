@@ -1,0 +1,11 @@
+l = []
+
+for i in range(0, 1):
+  l.append(int(input()))
+  l.append(int(input()))
+  l.append(int(input()))
+  
+l.sort()
+
+for j in l:
+  print(j)
