@@ -1,0 +1,16 @@
+n1 = float(input())
+n2 = float(input())
+n3 = float(input())
+
+m = ((n1+n2+n3)/3)
+
+c = int(0)
+
+if n1 > m:
+	c = c+1
+if n2 > m:
+	c = c+1
+if n3 > m:
+	c = c+1
+
+print(c)
