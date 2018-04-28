@@ -1,0 +1,6 @@
+quantosdias = int(input())
+quantosquilometros = int(input())
+
+resultado = (((quantosdias * 30) + (quantosquilometros * 0.01)) * 0.9)
+
+print("%.2f" % resultado)
