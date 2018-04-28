@@ -1,0 +1,8 @@
+x1 = 1
+while x1 > 0:
+        x1= int(input())
+        y = x1//2
+        y += 1
+        if x1 == 0:
+            break
+        print(y**2,"-",(y-1)**2)
