@@ -1,0 +1,10 @@
+l = []
+
+for i in range(0, 1):
+  
+  numeros = input().split(" ")
+  l.append(sorted(numeros))
+
+  for j in l:
+    for a in j:
+      print(a, end = " ")
