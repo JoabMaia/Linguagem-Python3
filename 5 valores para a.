@@ -1,0 +1,14 @@
+contador = 0
+for i in range(0, 5):
+  numero = float(input())
+
+  
+  if numero < 0:
+    contador += 1
+
+print("Digite um valor:")
+print("Digite um valor:")
+print("Digite um valor:")
+print("Digite um valor:")
+print("Digite um valor:")
+print("Foram digitados",contador,"numeros negativos")
