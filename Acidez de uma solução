@@ -1,0 +1,8 @@
+acidez = float(input())
+
+if acidez == 7:
+    print("Neutra")
+if acidez >7 and acidez < 14:
+    print("Basica")
+if acidez <7 and acidez >= 0:
+    print("Acida")
