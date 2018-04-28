@@ -1,0 +1,7 @@
+quantidade = int(input())
+quilometragem = int(input())
+
+valor = quantidade * 90
+if (quilometragem > quantidade * 100):
+  valor = valor + ((quilometragem-(quantidade*100))*12)
+print("%.2f" % valor)
