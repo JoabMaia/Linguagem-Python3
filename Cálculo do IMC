@@ -1,0 +1,5 @@
+m = float(input())
+h = float(input())
+imc = m/(h**2)
+imc2casas = "%.2f"% imc
+print(imc2casas)
