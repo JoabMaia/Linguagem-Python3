@@ -1,0 +1,16 @@
+contador = 0
+somanotas = 0
+for i in range(0,3):
+  nota = float(input())
+  
+  somanotas += nota
+  contador += 1
+  
+  media = somanotas/contador
+  
+if media >= 7:
+    print("aprovado")
+elif media < 3:
+    print("reprovado")
+elif media >=3 and media < 7:
+    print("prova final")
