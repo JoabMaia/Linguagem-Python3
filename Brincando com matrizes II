@@ -1,0 +1,40 @@
+matriz = [[],[],[]]
+
+for i in range(3):
+    for j in range(3):
+        num = int(input())
+
+        matriz[i].append(num)
+
+soma_positivos = 0
+cont = 0
+menor_num = 10000000000000000
+maior_num = -10000000000000000
+soma = 0
+
+for i in matriz:
+    for j in i:
+        if j > 0:
+            soma_positivos += j
+            cont += 1
+
+        if j < menor_num:
+            menor_num = j
+
+        if j > maior_num:
+            maior_num = j
+
+            if menor_num % 2 == 0:
+                delta = 1
+            else:
+                delta = 0
+
+for i in range(3):
+    for j in range(3):
+        if i != j:
+            soma += matriz[i][j]
+
+print('%.2f' %(soma_positivos / cont), end = ' ')
+print(menor_num, end = ' ')
+print(delta, end = ' ')
+print(soma)
