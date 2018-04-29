@@ -1,0 +1,11 @@
+salario = float(input())
+
+if salario > 300 and salario < 500:
+  resultado = salario * 1.07
+  print("%.2f" % resultado)
+if salario > 500:
+  resultado = salario * 1.1
+  print("%.2f" % resultado)
+if salario < 300:
+  resultado = salario * 1.05
+  print("%.2f" % resultado)
