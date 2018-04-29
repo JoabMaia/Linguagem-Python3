@@ -1,0 +1,6 @@
+ano_nascimento = int(input())
+ano_atual = int(input())
+
+idade = (ano_atual - ano_nascimento)
+
+print(idade)
