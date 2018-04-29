@@ -1,0 +1,21 @@
+num1, num2, num3 = input().split(" ")
+
+num1 = float(num1)
+num2 = float(num2)
+num3 = float(num3)
+
+areatriangulo = num1 * num3/2
+
+areacirculo = 3.14159 * (num3**2)
+
+areatrapezio = ((num1 + num2) * num3)/2
+
+areaquadrado = num2 * num2
+
+arearetangulo = num1 * num2
+
+print("TRIANGULO:","%.3f" % areatriangulo)
+print("CIRCULO:","%.3f" % areacirculo)
+print("TRAPEZIO:","%.3f" % areatrapezio)
+print("QUADRADO:","%.3f" % areaquadrado)
+print("RETANGULO:","%.3f" % arearetangulo)
