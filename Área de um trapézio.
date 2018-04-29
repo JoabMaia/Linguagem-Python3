@@ -1,0 +1,7 @@
+basemenor = float(input())
+basemaior = float(input())
+altura = float(input())
+
+area = (basemenor+basemaior)*altura/2
+
+print("%.1f" % area)
