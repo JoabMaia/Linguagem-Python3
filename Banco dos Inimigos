@@ -1,0 +1,19 @@
+entrada = int(input())
+
+lista = []
+
+
+for i in range(0, entrada):
+  nome = input()
+  id_ = int(input())
+  level = int(input())
+  vida = int(input())
+  ataque = int(input())
+  defesa = int(input())
+
+  print("Nome:",nome)
+  print("ID:",id_)
+  print("Level:",level)
+  print("Vida:",vida)
+  print("Ataque:",ataque)
+  print("Defesa:",defesa)
