@@ -1,0 +1,7 @@
+x = int(input())
+y = 4
+
+if x%y == 0:
+ print ("Bissexto")
+else:
+ print ("Nao bissexto")
