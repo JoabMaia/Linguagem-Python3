@@ -1,0 +1,12 @@
+avela = int(input())
+caramelo = int(input())
+passas = int(input())
+
+for i in range(0,1):
+  precoavela = int(input())
+  precocaramelo = int(input())
+  precopassas = int(input())
+  
+  resultado = (avela * precoavela) + (caramelo * precocaramelo) + (passas * precopassas)
+  
+print("Valor: R$"+"%.2f"%resultado)
