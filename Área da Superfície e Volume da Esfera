@@ -1,0 +1,7 @@
+raio = float(input())
+
+area_da_superficie = 4*3.1416*raio**2
+volume = (4*3.1416*raio**3)/3
+
+print("%.2f" % area_da_superficie)
+print("%.2f" % volume)
