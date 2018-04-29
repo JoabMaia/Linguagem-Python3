@@ -1,0 +1,7 @@
+quantidade = int(input())
+
+total = 42 * 1.75
+total1 = quantidade * 1.75
+resultado = total - total1
+
+print("%.2f" % resultado)
