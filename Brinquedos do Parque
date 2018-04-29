@@ -1,0 +1,16 @@
+brinquedo = 0
+
+for i in range(0, 1):
+  altura, idade = input().split(" ")
+
+  altura = int(altura)
+  idade = int(idade)
+  
+  if altura >= 150 and idade >= 12:
+    brinquedo += 1 
+  if altura >= 140 and idade >= 14:
+    brinquedo += 1 
+  if altura >= 170 or idade >= 16:
+    brinquedo += 1
+  
+print(brinquedo)
