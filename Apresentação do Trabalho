@@ -1,0 +1,22 @@
+contador = 0
+
+for i in range(0, 1):
+  Interface_grafica, Inteligencia_Artificial, Encapsulamento, Indentacao, Uso_de_Structs = input().split(" ")
+
+  Interface_grafica = int(Interface_grafica)
+  Inteligencia_Artificial = int(Inteligencia_Artificial)
+  Encapsulamento = int(Encapsulamento)
+  Indentacao = int(Indentacao)
+  Uso_de_Structs = int(Uso_de_Structs)
+
+  if Interface_grafica == 1 or Inteligencia_Artificial == 1:
+    contador += 1
+  if Encapsulamento == 1 and Indentacao == 1:
+    contador += 1
+  if Uso_de_Structs == 1:
+    contador += 1
+
+  if contador >= 3:
+    print("AVALIADO")
+  else:
+    print(0)
