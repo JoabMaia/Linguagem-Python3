@@ -1,0 +1,14 @@
+for i in range(0, 1):
+  a, b, c = input().split(" ")
+  a1, b1, c1 = input().split(" ")
+
+  a = int(a)
+  b = int(b)
+  c = float(c)
+  a1 = int(a1)
+  b1 = int(b1)
+  c1 = float(c1)
+  
+  resultado = (b * c) + (b1 * c1)
+  
+print("VALOR A PAGAR: R$","%.2f" %resultado)
