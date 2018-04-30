@@ -1,0 +1,10 @@
+soma = 0
+for i in range(0, 6):
+  pontos = int(input())
+  
+  soma += pontos
+  
+if soma >= 100:
+    print("Classificado")
+else:
+    print("Eliminado")
