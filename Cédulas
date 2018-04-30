@@ -1,0 +1,32 @@
+valor = int(input())
+aux=valor
+
+n100=aux//100
+aux=aux%100
+
+n50=aux//50
+aux=aux%50
+
+n20=aux//20
+aux=aux%20
+
+n10=aux//10
+aux=aux%10
+
+n5=aux//5
+aux=aux%5
+
+n2=aux//2
+aux=aux%2
+
+n1=aux//1
+aux=aux%1
+
+print(valor)
+print("%s nota(s) de R$ 100,00" % n100)
+print("%s nota(s) de R$ 50,00" % n50)
+print("%s nota(s) de R$ 20,00" % n20)
+print("%s nota(s) de R$ 10,00" % n10)
+print("%s nota(s) de R$ 5,00" % n5)
+print("%s nota(s) de R$ 2,00" % n2)
+print("%s nota(s) de R$ 1,00" % n1)
