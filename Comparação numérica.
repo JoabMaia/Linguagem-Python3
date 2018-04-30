@@ -1,0 +1,11 @@
+numero = int(input())
+numero1 = int(input())
+
+if numero > numero1:
+  print("Digite um numero:")
+  print("Digite outro numero:")
+  print("Maior numero:","%.1f" % numero)
+elif numero1 > numero:
+  print("Digite um numero:")
+  print("Digite outro numero:")
+  print("Maior numero:","%.1f" % numero1)
