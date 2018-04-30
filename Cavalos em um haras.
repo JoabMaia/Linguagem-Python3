@@ -1,0 +1,6 @@
+quantidade = int(input())
+
+resultado = quantidade * 4
+
+print("Informe a quantidade de cavalos existentes no haras:")
+print("Numero de ferraduras a serem compradas:",resultado)
