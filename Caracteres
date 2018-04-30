@@ -1,0 +1,7 @@
+caracteres = int(input())
+
+while caracteres != 0:
+  palavra = input()
+
+  print(palavra[::-1])
+  caracteres = int(input())
